@@ -1,0 +1,197 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #30353d;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+	color: #FFFFFF;
+	letter-spacing: 5px; 
+	font-size: 16px;
+}
+
+.nav-links{
+	display: flex;
+	background-color: #30353d;
+	justify-content: space-around;
+	width: 35%;
+}
+
+.nav-links li{
+	list-style: none;
+}
+.nav-links a{
+	color: #CCCCCC;
+	font-size: 13px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+footer{
+	background-color: #30353d;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	height: 250px;
+	vertical-align:middle;
+	padding-top:30px;
+	line-height: 30px; 
+	letter-spacing: 0.5px;
+}
+
+footer p{
+	background-color: #30353d;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Playfair Display', serif;
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+ footer .button{
+
+	background-color: #30353d;
+	font-size: 20px;
+	text-decoration: none;
+	vertical-align: middle;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+	font-family: 'Playfair Display', serif;
+	padding: 6px 6px;
+	
+}
+
+
+.about{
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+
+}
+
+.about p{
+	margin: 16px 20px 16px 20px;
+	font-family: 'Rubik', sans-serif;
+	line-height: 30px;
+	padding: 20px 80px;
+	font-size: 20px;
+	color: #30353d;
+}
+.about img{
+	height: 600px;
+	width: 600px;
+	border-radius: 4px;
+	padding-right: 30px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+
+    margin-right: 0px;
+    
+    margin-left: 0px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #30353d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.msg {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 80px;
+  color: #30353d;
+}
+
+.get-in-touch p{
+	font-family: 'Open Sans', sans-serif;
+	color: #30353d;
+	padding: 20px 80px;
+
+}
+
+
+.club{
+	background-color: #30353d;
+	height:550px;
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+}
+
+
+.card {
+	vertical-align: middle;
+	margin-top: 80px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	margin-left: 100px;
+
+}
+
+.about-club{
+	vertical-align: middle;
+	margin-top: 80px;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	margin-left: 400px;
+	margin-right: 200px;
+	font-size: 20px;
+	
+}
+
+.cntr{
+	text-align: center;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	line-height: 40px;
+	width : 200px;
+	height: 100px;
+	border-radius: 5px;
+
+}
+
+.fb-link{
+	color: #FFFFFF;
+	border-radius: 5px;
+	background-color: #3b5998; 
+	padding:6px 2px; 
+	text-decoration: none; 
+	margin-top: 5px;"
+}
+
+.cc-logo{
+	height: 200px;
+	border-radius: 5px;
+}
+
